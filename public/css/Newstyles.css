@@ -1,0 +1,177 @@
+.imageboxs img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.imageboxs img:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+body {
+    background: whitesmoke;
+}
+
+.navbar-default {
+    min-height: 70px;
+    background: whitesmoke;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+h3 {
+    color: #428bca;
+}
+
+.titleSecond {
+    text-decoration: underline;
+}
+
+.swipe-area {
+    height: 100%;
+    left: -170px;
+    width: 190px;
+    background: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 1000;
+}
+
+.topMenu {
+    margin-top: 35px;
+    width: 100%;
+}
+
+.topMenu .buttonGroup {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.leftMenuForm {
+    height: 100%;
+    width: 80%;
+    background: #ffffff;
+    z-index: 1001;
+}
+
+.leftMenuForm .buttonGroup {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.myForm .mark {
+    margin-top: -70px;
+    padding-top: 80px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+}
+
+.myForm .newRow {
+    background: #fdfdff;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.myForm .row {
+    display: block;
+    font-size: 14px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.myForm .control-label.text-left {
+    text-align: left;
+}
+
+.myForm .form-group {
+    margin-bottom: 5px;
+}
+
+.myForm .map {
+    margin-top: 25px;
+}
+
+.myForm label {
+    font-weight: normal;
+}
+
+.myForm .myCheckbox .col-md-2, .myForm .myCheckbox .col-sm-2 {
+    width: 20%;
+}
+
+.myForm .myCheckbox {
+    padding-left: 10px;
+}
+
+.myForm .myCheckbox label {
+    padding-right: 2px;
+}
+
+.myForm .myButton {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 0;
+}
+
+.myForm textarea {
+    resize: none;
+}
+.myForm .required span{
+    color: red;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .topMenu {
+        margin-top: 40px;
+    }
+
+    .topMenu a {
+        font-size: 12px;
+    }
+
+    .myForm label {
+        font-size: 12px;
+    }
+
+    .myForm input.width {
+        padding: 0 0 0 8px;
+        width: 35px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .content {
+        margin-top: 0px;
+    }
+
+    .myForm label {
+        font-size: 12px;
+        line-height: 1;
+
+    }
+
+    .myForm .mark {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .myForm .newRow {
+        margin-bottom: 10px;
+    }
+
+    .myForm input.width {
+        padding: 0 0 0 8px;
+        width: 33px;
+    }
+}
