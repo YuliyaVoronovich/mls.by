@@ -1,3 +1,3 @@
-<p align="center">Example project (begin)/p>
+<p align="center">Example project (begin)</p>
 
 
